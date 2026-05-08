@@ -151,11 +151,11 @@ fn page_configuration() -> PageConfiguration {
     // displayed below it, side-by-side, and potentially some social media links to
     // your team
     let footer = Footer::new(html! {
-        "© Copyright <year> <your website>"
+        "© Copyright <2026> <Dashmetry Demonlist>"
         br;
         "All rights reserved"
         br;
-        "<your website> and <your demonlist> are in no way affiliated with RobTopGamesAB ® or pointercrate.com"
+        "<revoohgd.pages.io> and <Dashmetry Demonlist> are in no way affiliated with RobTopGamesAB ® or pointercrate.com"
     }, html! { "No terms of use" })
     // Add a column with links for various list-related highlights
     .with_column(FooterColumn::LinkList {
